@@ -18,11 +18,14 @@ To make use of the NetLogo source file, first download the latest version of [Ne
 ### R
 There are several R scripts that were used for data analysis in our study. To make use of them, first download the latest version of [R](https://www.r-project.org/). Then, run the NetLogo ABM with the export option in the interface turned on. Once a simulation of the model completes, an R data file (with the extension .RData) will be stored in a folder of your choosing (again, an option in the NetLogo interface for the model). Change the path arguments in the R scripts to match your system—--in particular, change the path arguments in the ts_summaries.R script to the path ending in the folder containing the NetLogo .RData file(s). Then, open R, change to the appropriate working directory, and run:
 
-'''
+```
 library(fitdistrplus)
+
 source("/PATH/TO/MLEFits.R")
+
 source("/PATH/TO/cbindna.R")
+
 source("/PATH/TO/ts_summaries.R")
-'''
+```
 
 You can also confirm our t-test results by calling the scripts, 'pairwise_sd.R' and 'pairwiset_mean_waste_prob.R'.
