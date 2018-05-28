@@ -20,12 +20,9 @@ There are several R scripts that were used for data analysis in our study. To ma
 
 ```
 library(fitdistrplus)
-
 source("/PATH/TO/MLEFits.R")
-
 source("/PATH/TO/cbindna.R")
-
 source("/PATH/TO/ts_summaries.R")
 ```
 
-You can also confirm our t-test results by calling the scripts, 'pairwise_sd.R' and 'pairwiset_mean_waste_prob.R'.
+You can also confirm our t-test results by calling the scripts, `pairwise_sd.R` and `pairwiset_mean_waste_prob.R`.
