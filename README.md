@@ -2,7 +2,7 @@
 ## Overview
 This repo contains the NetLogo source code and R data analysis scripts for the study presented in the following paper:
 
-[*Carleton, McAuley, Costopoulos, and Collard (In Prep) "An evolutionary agent-based model contradicts Dunnell’s waste hypothesis for cultural elaboration"*](https://osf.io/nrcgp/)
+[*Carleton, McAuley, Costopoulos, and Collard (submitted) "An evolutionary agent-based model contradicts Dunnell’s waste hypothesis for cultural elaboration"*](https://osf.io/nrcgp/)
 
 ### Abstract
 Ancient monuments represent a puzzle from the perspective of evolutionary theory. It is clear that they would have been energetically expensive to construct but they are not easy to explain in terms of reproductive success. In the late 1980s, Robert Dunnell argued that these and other cases of what he called cultural elaboration actually conferred a fitness advantage in highly variable environments. Here, we report a study in which we tested the key predictions of Dunnell’s hypothesis with an agent-based model. In the model, the agents inherited wasting behaviour and were subjected to selective pressure from a variable environment. The results we obtained run counter to the hypothesis. We found that the propensity for waste was strongly selected against by environmental variability. At the start of each experiment agents were likely to waste 50% of the time on average, but selection drove that rate down to around 10% and would have eliminated waste entirely if not for random mutations that produced wasting behaviour. This suggests that wasting does not provide an adaptive advantage in highly variable environments in the manner that Dunnell proposed.
