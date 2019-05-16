@@ -35,14 +35,6 @@ for(j in 1:6){
    axis(2,
          col="grey",
          col.ticks="grey")
-   #waste_prob_fit <- fitdist(waste_prob_sample,
-   #                           distr="halfnorm",
-   #                           start=list(scale=1/0.01))
-   #hnorm_scale <- waste_prob_fit$estimate
-   #polygon(y=c(dhalfnorm(seq(0,0.3,0.001),scale=hnorm_scale),rep(0,301)),
-   #         x=c(seq(0,0.3,0.001),rev(seq(0,0.3,0.001))),
-   #         col=rgb(0,0,0.5,0.25),
-   #         border=F)
    polygon(y=c(dhalfnorm(seq(0,0.3,0.001),scale=125),rep(0,301)),
             x=c(seq(0,0.3,0.001),rev(seq(0,0.3,0.001))),
             col=rgb(0.5,0.5,0.5,0.5),
