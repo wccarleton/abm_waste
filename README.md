@@ -2,7 +2,7 @@
 ## Overview
 This repo contains the NetLogo source code and R data analysis scripts for the study presented in the following paper:
 
-*Carleton, McAuley, Costopoulos, and Collard "Agent-based model experiments refute Dunnell’s adaptive waste explanation for cultural elaboration".*
+[*Carleton, McAuley, Costopoulos, and Collard "Agent-based model experiments refute Dunnell’s adaptive waste explanation for cultural elaboration".*](https://osf.io/preprints/socarxiv/2h36u/)
 
 ### Abstract
 Ancient monuments represent a puzzle from the perspective of evolutionary theory. It is obvious that their construction would have been costly in terms of energy, but it is not clear how they would have enhanced reproductive success. In the late 1980s, the prominent US archaeologist Robert Dunnell proposed a solution to this conundrum. He argued that wasting energy on monuments and other forms of what he dubbed “cultural elaboration” would have conferred a selective advantage in highly variable environments. In the present paper, we report a study in which we used an agent-based model to test the core prediction of Dunnell’s hypothesis. In the model, the agents inherited a propensity to waste and were subjected to selection in low and high variability environments. The results we obtained do not support the hypothesis. We found that the propensity to waste was subject to strong negative selection regardless of the level of environmental variability. At the start of each simulation run, agents wasted 50% of the time on average, but selection drove that rate down by more than a third after the first generation, ultimately settling at 5-7% on average. This casts serious doubt on the ability of Dunnell’s hypothesis to explain instances of cultural elaboration in the archaeological record.
@@ -30,6 +30,6 @@ source("/PATH/TO/dsd_waste.R")
 source("/PATH/TO/selectdiff_waste.R")
 ```
 
-Then run any of the R scripts in the /Plotting folder of this repo. One of the scripts therein will require that the "LapacesDemon" package is loaded because it depends on the dhalfnorm function (half-normal distribution). Another half-normal distribution function would work as well, but the relevant plotting script (halfnorm_selection.R) may require editing to account for different function arguments. 
+Then run any of the R scripts in the /Plotting folder of this repo. One of the scripts therein will require that the "LapacesDemon" package is loaded because it depends on the dhalfnorm function (half-normal distribution). Another half-normal distribution function would work as well, but the relevant plotting script (halfnorm_selection.R) may require editing to account for different function arguments.
 
 Note that paths in these scripts may need to be changed depending on your directory tree and the location of the your ABM results. You may also need to edit the scripts to account for different numbers of experiments---we ran 6 experiments for the paper cited above and the R scripts in this repo are all tailored to that protocol.
